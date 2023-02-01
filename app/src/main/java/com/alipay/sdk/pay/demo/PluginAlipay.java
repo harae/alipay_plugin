@@ -28,9 +28,4 @@ public class PluginAlipay extends Plugin {
                 .putExtra("message", message)
                 .addFlags(Intent.FLAG_ACTIVITY_NEW_TASK));
     }
-
-//    @Override
-//    public ComponentName getService() {
-//        return new ComponentName(getSelfContext().getPackageName(), AlipayService.class.getName());
-//    }
 }

@@ -1,13 +1,13 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 33
+    compileSdkVersion 30
     buildToolsVersion "30.0.3"
 
     defaultConfig {
         applicationId "com.alipay.sdk.pay.demo"
         minSdkVersion 19
-        targetSdkVersion 33
+        targetSdkVersion 30
     }
 
     buildTypes {
@@ -23,7 +23,7 @@ dependencies {
     // 支付宝 SDK AAR 包所需的配置
     api 'com.alipay.sdk:alipaysdk-android:+@aar'
     api 'androidx.legacy:legacy-support-v4:1.0.0'
-    api 'androidx.appcompat:appcompat:1.0.0'
+//    api 'androidx.appcompat:appcompat:1.0.0'
     implementation 'com.github.hyb1996:Auto.js-Plugin-SDK:0.2'
     implementation 'androidx.appcompat:appcompat:1.2.0'
 
